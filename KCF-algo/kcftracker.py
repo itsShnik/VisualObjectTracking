@@ -314,20 +314,50 @@ class KCFTracker:
 				self._roi[2] *= self.scale_step
 				self._roi[3] *= self.scale_step
 		
-	
-		self._roi[0] = cx - self._roi[2]/2.0 + loc[0]*self.cell_size*self._scale
-		self._roi[1] = cy - self._roi[3]/2.0 + loc[1]*self.cell_size*self._scale
-		
-		if(self._roi[0] >= image.shape[1]-1):  self._roi[0] = image.shape[1] - 1
-		if(self._roi[1] >= image.shape[0]-1):  self._roi[1] = image.shape[0] - 1
-		if(self._roi[0]+self._roi[2] <= 0):  self._roi[0] = -self._roi[2] + 2
-		if(self._roi[1]+self._roi[3] <= 0):  self._roi[1] = -self._roi[3] + 2
-		assert(self._roi[2]>0 and self._roi[3]>0)
+		new_cx = cx + loc[0]*self.cell_size*self._scale
+		new_cy = cy + loc[1]*self.cell_size*self._scale
 
-		print("new area of interest is :")
-		print(self._roi)
+		if(new_cx > image.shape[0] + self._roi[0] / 2 - 10):
+			updated = False
+			check_roi = []
+			if(new_cx > image.shape[0] + self._roi[0] / 2 - 10):
+				not_break = True
+				peak_resp = 0
+				check_roi = self._roi
+				self._roi[1] = 0
+				while(not_break):
+					check_cx = self._roi[0] + self._roi[2] / 2
+					check_cy = self._roi[1] + self._roi[3] / 2
+					check_loc, peak_resp = self.detect(self._tmpl, self.getFeatures(image, 0, 1.0))
+					pred_cx = check_cx + check_loc[0]*self.cell_size*self._scale
+					pred_cy = check_cy + check_loc[1]*self.cell_size*self._scale
+					if(pred_cx < image.shape[1] and peak_resp > peak_value):
+						updated = True
+						not_break = False
+					elif(self._roi[1] + 20 > image.shape[1]):
+						not_break = False
+					else:
+						self._roi[1] += 20
 
-		x = self.getFeatures(image, 0, 1.0)
-		self.train(x, self.interp_factor)
+
+
+			if(not updated):
+				self._roi = check_roi
+
+		else:	
+			self._roi[0] = cx - self._roi[2]/2.0 + loc[0]*self.cell_size*self._scale
+			self._roi[1] = cy - self._roi[3]/2.0 + loc[1]*self.cell_size*self._scale
+			
+			if(self._roi[0] >= image.shape[1]-1):  self._roi[0] = image.shape[1] - 1
+			if(self._roi[1] >= image.shape[0]-1):  self._roi[1] = image.shape[0] - 1
+			if(self._roi[0]+self._roi[2] <= 0):  self._roi[0] = -self._roi[2] + 2
+			if(self._roi[1]+self._roi[3] <= 0):  self._roi[1] = -self._roi[3] + 2
+			assert(self._roi[2]>0 and self._roi[3]>0)
+
+			print("new area of interest is :")
+			print(self._roi)
+
+			x = self.getFeatures(image, 0, 1.0)
+			self.train(x, self.interp_factor)
 
 		return self._roi
