@@ -25,8 +25,7 @@ A Siamese neural network is an artificial neural network that uses the same weig
 
 #### Explanation
 
-Both the reference image (usually the first frame labeled with the bounding box ) and the search image are encoded into deep feature maps by the same - and therefore siamese - fully convolutional neural networks indicated by phi here. The feature map produced from the reference image is used like a correlation filter which is convolved (\*) with the deep feature map of the search image to give the required score map, which is then used to get the bounding box coordinates.
-_&alpha;_ 
+Both the reference image (usually the first frame labeled with the bounding box, ___Z___) and the search image (___X___) are encoded into deep feature maps by the same - and therefore siamese - fully convolutional neural networks indicated by _&phi;_ here. The feature map produced from the reference image (___&phi;___(_Z_)) is used like a correlation filter which is convolved (\*) with the deep feature map of the search image to give the required score map, which is then used to get the bounding box coordinates.
 
 
 ### SiamRPN
