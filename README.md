@@ -16,7 +16,8 @@ Reference:
 A Siamese neural network is an artificial neural network that uses the same weights while working in tandem on two different input vectors to compute comparable output vectors. Siamese networks have proved to be of great applicaiton in the field of visual object tracking. The ability of Siamese networks to output comparable featur vectors which basically indicate the similarity between the input images / patches is exploited by many recent researchers in computer vision.
 
 ### Siam - FC 
-
+------
+------
 > [Fully-Convolutional Siamese Networks for Object Tracking](https://arxiv.org/abs/1606.09549)
 
 #### Network Architecture
