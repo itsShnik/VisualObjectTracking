@@ -1,0 +1,198 @@
+[2019-07-21 09:21:54,908-rk0-test.py#555] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2016', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2019-07-21 09:21:55,361-rk0-features.py# 66] Current training 0 layers:
+	
+[2019-07-21 09:21:55,362-rk0-features.py# 66] Current training 1 layers:
+	
+[2019-07-21 09:21:55,436-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2019-07-21 09:22:12,158-rk0-load_helper.py# 25] remove prefix 'module.'
+[2019-07-21 09:22:12,164-rk0-load_helper.py# 18] used keys:356
+[2019-07-21 09:22:32,351-rk0-test.py#416] (1) Video: bag          Time: 19.0s Speed: 10.2fps Lost: 0
+[2019-07-21 09:22:43,345-rk0-test.py#416] (2) Video: ball1        Time: 10.1s Speed: 10.3fps Lost: 0
+[2019-07-21 09:22:47,574-rk0-test.py#416] (3) Video: ball2        Time: 3.9s Speed: 10.3fps Lost: 0
+[2019-07-21 09:24:03,508-rk0-test.py#416] (4) Video: basketball   Time: 70.6s Speed: 10.3fps Lost: 1
+[2019-07-21 09:24:45,252-rk0-test.py#416] (5) Video: birds1       Time: 33.4s Speed: 10.1fps Lost: 0
+[2019-07-21 09:25:41,513-rk0-test.py#416] (6) Video: birds2       Time: 51.6s Speed: 10.4fps Lost: 0
+[2019-07-21 09:26:04,145-rk0-test.py#416] (7) Video: blanket      Time: 21.9s Speed: 10.2fps Lost: 0
+[2019-07-21 09:26:13,145-rk0-test.py#416] (8) Video: bmx          Time: 8.0s Speed: 9.4fps Lost: 0
+[2019-07-21 09:26:50,758-rk0-test.py#416] (9) Video: bolt1        Time: 34.3s Speed: 10.2fps Lost: 0
+[2019-07-21 09:27:20,173-rk0-test.py#416] (10) Video: bolt2        Time: 28.4s Speed: 10.3fps Lost: 1
+[2019-07-21 09:27:35,974-rk0-test.py#416] (11) Video: book         Time: 15.1s Speed: 11.5fps Lost: 4
+[2019-07-21 09:27:51,112-rk0-test.py#416] (12) Video: butterfly    Time: 14.6s Speed: 10.3fps Lost: 0
+[2019-07-21 09:29:06,278-rk0-test.py#416] (13) Video: car1         Time: 70.7s Speed: 10.5fps Lost: 4
+[2019-07-21 09:29:45,149-rk0-test.py#416] (14) Video: car2         Time: 37.3s Speed: 10.5fps Lost: 1
+[2019-07-21 09:29:58,942-rk0-test.py#416] (15) Video: crossing     Time: 12.9s Speed: 10.1fps Lost: 0
+[2019-07-21 09:30:30,950-rk0-test.py#416] (16) Video: dinosaur     Time: 31.1s Speed: 10.5fps Lost: 0
+[2019-07-21 09:31:00,997-rk0-test.py#416] (17) Video: fernando     Time: 28.5s Speed: 10.2fps Lost: 0
+[2019-07-21 09:31:37,489-rk0-test.py#416] (18) Video: fish1        Time: 34.6s Speed: 10.6fps Lost: 2
+[2019-07-21 09:32:08,014-rk0-test.py#416] (19) Video: fish2        Time: 29.5s Speed: 10.5fps Lost: 0
+[2019-07-21 09:32:59,852-rk0-test.py#416] (20) Video: fish3        Time: 49.8s Speed: 10.4fps Lost: 0
+[2019-07-21 09:34:10,870-rk0-test.py#416] (21) Video: fish4        Time: 65.6s Speed: 10.4fps Lost: 0
+[2019-07-21 09:36:43,669-rk0-test.py#416] (22) Video: girl         Time: 146.7s Speed: 10.2fps Lost: 2
+[2019-07-21 09:36:55,757-rk0-test.py#416] (23) Video: glove        Time: 11.7s Speed: 10.2fps Lost: 0
+[2019-07-21 09:37:32,731-rk0-test.py#416] (24) Video: godfather    Time: 35.1s Speed: 10.4fps Lost: 0
+[2019-07-21 09:38:58,755-rk0-test.py#416] (25) Video: graduate     Time: 81.8s Speed: 10.3fps Lost: 0
+[2019-07-21 09:39:54,032-rk0-test.py#416] (26) Video: gymnastics1  Time: 53.8s Speed: 10.5fps Lost: 1
+[2019-07-21 09:40:19,826-rk0-test.py#416] (27) Video: gymnastics2  Time: 24.0s Speed: 10.0fps Lost: 0
+[2019-07-21 09:40:32,353-rk0-test.py#416] (28) Video: gymnastics3  Time: 11.5s Speed: 10.1fps Lost: 1
+[2019-07-21 09:41:20,502-rk0-test.py#416] (29) Video: gymnastics4  Time: 45.4s Speed: 10.2fps Lost: 0
+[2019-07-21 09:41:45,331-rk0-test.py#416] (30) Video: hand         Time: 24.2s Speed: 11.0fps Lost: 2
+[2019-07-21 09:42:21,888-rk0-test.py#416] (31) Video: handball1    Time: 35.7s Speed: 10.5fps Lost: 1
+[2019-07-21 09:43:01,906-rk0-test.py#416] (32) Video: handball2    Time: 37.6s Speed: 10.7fps Lost: 2
+[2019-07-21 09:44:13,681-rk0-test.py#416] (33) Video: helicopter   Time: 68.6s Speed: 10.3fps Lost: 1
+[2019-07-21 09:45:19,672-rk0-test.py#416] (34) Video: iceskater1   Time: 64.6s Speed: 10.2fps Lost: 0
+[2019-07-21 09:46:31,016-rk0-test.py#416] (35) Video: iceskater2   Time: 68.8s Speed: 10.3fps Lost: 1
+[2019-07-21 09:46:36,961-rk0-test.py#416] (36) Video: leaves       Time: 5.4s Speed: 11.5fps Lost: 2
+[2019-07-21 09:46:58,517-rk0-test.py#416] (37) Video: marching     Time: 19.9s Speed: 10.0fps Lost: 0
+[2019-07-21 09:47:07,924-rk0-test.py#416] (38) Video: matrix       Time: 9.1s Speed: 10.9fps Lost: 1
+[2019-07-21 09:47:24,142-rk0-test.py#416] (39) Video: motocross1   Time: 15.7s Speed: 10.4fps Lost: 0
+[2019-07-21 09:47:30,908-rk0-test.py#416] (40) Video: motocross2   Time: 6.0s Speed: 9.9fps Lost: 0
+[2019-07-21 09:49:16,766-rk0-test.py#416] (41) Video: nature       Time: 98.5s Speed: 10.1fps Lost: 2
+[2019-07-21 09:49:48,848-rk0-test.py#416] (42) Video: octopus      Time: 29.6s Speed: 9.8fps Lost: 0
+[2019-07-21 09:50:02,698-rk0-test.py#416] (43) Video: pedestrian1  Time: 13.5s Speed: 10.3fps Lost: 0
+[2019-07-21 09:51:16,401-rk0-test.py#416] (44) Video: pedestrian2  Time: 69.0s Speed: 10.3fps Lost: 0
+[2019-07-21 09:51:29,916-rk0-test.py#416] (45) Video: rabbit       Time: 12.9s Speed: 12.2fps Lost: 5
+[2019-07-21 09:51:46,175-rk0-test.py#416] (46) Video: racing       Time: 15.1s Speed: 10.2fps Lost: 0
+[2019-07-21 09:52:47,096-rk0-test.py#416] (47) Video: road         Time: 55.9s Speed: 10.0fps Lost: 0
+[2019-07-21 09:53:23,506-rk0-test.py#416] (48) Video: shaking      Time: 34.9s Speed: 10.4fps Lost: 0
+[2019-07-21 09:53:48,237-rk0-test.py#416] (49) Video: sheep        Time: 23.8s Speed: 10.5fps Lost: 0
+[2019-07-21 09:54:24,552-rk0-test.py#416] (50) Video: singer1      Time: 34.3s Speed: 10.2fps Lost: 0
+[2019-07-21 09:55:02,172-rk0-test.py#416] (51) Video: singer2      Time: 35.8s Speed: 10.2fps Lost: 0
+[2019-07-21 09:55:16,238-rk0-test.py#416] (52) Video: singer3      Time: 13.2s Speed: 9.8fps Lost: 1
+[2019-07-21 09:55:54,499-rk0-test.py#416] (53) Video: soccer1      Time: 36.1s Speed: 10.8fps Lost: 3
+[2019-07-21 09:56:06,593-rk0-test.py#416] (54) Video: soccer2      Time: 11.0s Speed: 11.7fps Lost: 3
+[2019-07-21 09:56:23,693-rk0-test.py#416] (55) Video: soldier      Time: 14.9s Speed: 9.2fps Lost: 2
+[2019-07-21 09:56:44,971-rk0-test.py#416] (56) Video: sphere       Time: 20.5s Speed: 9.7fps Lost: 0
+[2019-07-21 09:58:11,317-rk0-test.py#416] (57) Video: tiger        Time: 78.9s Speed: 4.6fps Lost: 0
+[2019-07-21 09:58:46,200-rk0-test.py#416] (58) Video: traffic      Time: 29.9s Speed: 6.3fps Lost: 0
+[2019-07-21 09:59:55,356-rk0-test.py#416] (59) Video: tunnel       Time: 66.2s Speed: 4.7fps Lost: 0
+[2019-07-21 10:01:13,065-rk0-test.py#416] (60) Video: wiper        Time: 73.8s Speed: 4.6fps Lost: 1
+[2019-07-21 10:01:13,067-rk0-test.py#602] Total Lost: 44
+[2019-07-21 10:01:13,068-rk0-test.py#604] Mean Speed: 10.01 FPS
+[2019-07-21 10:08:27,426-rk0-test.py#555] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2018', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2019-07-21 10:08:27,663-rk0-features.py# 66] Current training 0 layers:
+	
+[2019-07-21 10:08:27,664-rk0-features.py# 66] Current training 1 layers:
+	
+[2019-07-21 10:08:27,733-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2019-07-21 10:08:30,922-rk0-load_helper.py# 25] remove prefix 'module.'
+[2019-07-21 10:08:30,923-rk0-load_helper.py# 18] used keys:356
+[2019-07-21 10:09:09,755-rk0-test.py#416] (1) Video: ants1        Time: 32.5s Speed: 10.0fps Lost: 0
+[2019-07-21 10:10:14,373-rk0-test.py#416] (2) Video: ants3        Time: 55.0s Speed: 10.5fps Lost: 2
+[2019-07-21 10:10:33,822-rk0-test.py#416] (3) Video: bag          Time: 19.0s Speed: 10.3fps Lost: 0
+[2019-07-21 10:10:46,133-rk0-test.py#416] (4) Video: ball1        Time: 11.0s Speed: 9.5fps Lost: 0
+[2019-07-21 10:10:51,057-rk0-test.py#416] (5) Video: ball2        Time: 4.4s Speed: 9.1fps Lost: 0
+[2019-07-21 10:12:05,291-rk0-test.py#416] (6) Video: basketball   Time: 69.9s Speed: 10.4fps Lost: 1
+[2019-07-21 10:12:46,510-rk0-test.py#416] (7) Video: birds1       Time: 32.6s Speed: 10.4fps Lost: 2
+[2019-07-21 10:13:08,178-rk0-test.py#416] (8) Video: blanket      Time: 21.3s Speed: 10.5fps Lost: 0
+[2019-07-21 10:13:16,177-rk0-test.py#416] (9) Video: bmx          Time: 7.4s Speed: 10.1fps Lost: 0
+[2019-07-21 10:13:53,739-rk0-test.py#416] (10) Video: bolt1        Time: 33.5s Speed: 10.4fps Lost: 0
+[2019-07-21 10:14:23,041-rk0-test.py#416] (11) Video: bolt2        Time: 28.3s Speed: 10.3fps Lost: 1
+[2019-07-21 10:14:39,142-rk0-test.py#416] (12) Video: book         Time: 15.0s Speed: 11.6fps Lost: 4
+[2019-07-21 10:14:54,442-rk0-test.py#416] (13) Video: butterfly    Time: 14.7s Speed: 10.2fps Lost: 0
+[2019-07-21 10:16:11,756-rk0-test.py#416] (14) Video: car1         Time: 70.7s Speed: 10.5fps Lost: 2
+[2019-07-21 10:16:50,059-rk0-test.py#416] (15) Video: conduction1  Time: 33.3s Speed: 10.3fps Lost: 1
+[2019-07-21 10:17:07,365-rk0-test.py#416] (16) Video: crabs1       Time: 15.1s Speed: 10.5fps Lost: 1
+[2019-07-21 10:17:21,041-rk0-test.py#416] (17) Video: crossing     Time: 12.8s Speed: 10.2fps Lost: 0
+[2019-07-21 10:17:54,354-rk0-test.py#416] (18) Video: dinosaur     Time: 31.1s Speed: 10.5fps Lost: 0
+[2019-07-21 10:18:11,089-rk0-test.py#416] (19) Video: drone_across Time: 14.3s Speed: 10.2fps Lost: 0
+[2019-07-21 10:18:22,444-rk0-test.py#416] (20) Video: drone_flip   Time: 10.0s Speed: 11.2fps Lost: 2
+[2019-07-21 10:18:58,752-rk0-test.py#416] (21) Video: drone1       Time: 32.8s Speed: 10.8fps Lost: 4
+[2019-07-21 10:19:30,157-rk0-test.py#416] (22) Video: fernando     Time: 28.6s Speed: 10.2fps Lost: 0
+[2019-07-21 10:20:06,605-rk0-test.py#416] (23) Video: fish1        Time: 33.9s Speed: 10.8fps Lost: 2
+[2019-07-21 10:20:37,804-rk0-test.py#416] (24) Video: fish2        Time: 29.3s Speed: 10.6fps Lost: 0
+[2019-07-21 10:21:32,113-rk0-test.py#416] (25) Video: fish3        Time: 51.2s Speed: 10.1fps Lost: 0
+[2019-07-21 10:24:53,552-rk0-test.py#416] (26) Video: flamingo1    Time: 172.8s Speed: 8.0fps Lost: 2
+[2019-07-21 10:25:46,094-rk0-test.py#416] (27) Video: frisbee      Time: 36.7s Speed: 6.7fps Lost: 2
+[2019-07-21 12:47:15,977-rk0-test.py#555] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2018', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2019-07-21 12:47:16,947-rk0-features.py# 66] Current training 0 layers:
+	
+[2019-07-21 12:47:16,948-rk0-features.py# 66] Current training 1 layers:
+	
+[2019-07-21 12:47:17,033-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2019-07-21 12:47:55,151-rk0-load_helper.py# 25] remove prefix 'module.'
+[2019-07-21 12:47:55,152-rk0-load_helper.py# 18] used keys:356
+[2019-07-21 12:49:02,180-rk0-test.py#416] (1) Video: ants1        Time: 31.9s Speed: 10.2fps Lost: 0
+[2019-07-21 12:50:07,308-rk0-test.py#416] (2) Video: ants3        Time: 55.0s Speed: 10.5fps Lost: 2
+[2019-07-21 12:50:26,348-rk0-test.py#416] (3) Video: bag          Time: 18.5s Speed: 10.5fps Lost: 0
+[2019-07-21 12:50:37,681-rk0-test.py#416] (4) Video: ball1        Time: 10.1s Speed: 10.3fps Lost: 0
+[2019-07-21 12:50:42,026-rk0-test.py#416] (5) Video: ball2        Time: 3.9s Speed: 10.3fps Lost: 0
+[2019-07-21 12:51:54,602-rk0-test.py#416] (6) Video: basketball   Time: 67.8s Speed: 10.7fps Lost: 1
+[2019-07-21 12:52:34,364-rk0-test.py#416] (7) Video: birds1       Time: 32.0s Speed: 10.5fps Lost: 2
+[2019-07-21 12:52:55,787-rk0-test.py#416] (8) Video: blanket      Time: 21.1s Speed: 10.6fps Lost: 0
+[2019-07-21 12:53:03,764-rk0-test.py#416] (9) Video: bmx          Time: 7.4s Speed: 10.1fps Lost: 0
+[2019-07-21 12:53:40,363-rk0-test.py#416] (10) Video: bolt1        Time: 32.8s Speed: 10.7fps Lost: 0
+[2019-07-21 12:54:08,023-rk0-test.py#416] (11) Video: bolt2        Time: 27.0s Speed: 10.8fps Lost: 1
+[2019-07-21 12:54:23,393-rk0-test.py#416] (12) Video: book         Time: 14.7s Speed: 11.8fps Lost: 4
+[2019-07-21 12:54:38,238-rk0-test.py#416] (13) Video: butterfly    Time: 14.3s Speed: 10.5fps Lost: 0
+[2019-07-21 12:55:54,316-rk0-test.py#416] (14) Video: car1         Time: 69.5s Speed: 10.7fps Lost: 2
+[2019-07-21 12:56:31,520-rk0-test.py#416] (15) Video: conduction1  Time: 32.7s Speed: 10.5fps Lost: 1
+[2019-07-21 12:56:51,044-rk0-test.py#416] (16) Video: crabs1       Time: 16.3s Speed: 9.7fps Lost: 1
+[2019-07-21 12:57:05,995-rk0-test.py#416] (17) Video: crossing     Time: 13.7s Speed: 9.5fps Lost: 0
+[2019-07-21 12:57:42,067-rk0-test.py#416] (18) Video: dinosaur     Time: 33.3s Speed: 9.8fps Lost: 0
+[2019-07-21 12:58:16,810-rk0-test.py#416] (19) Video: drone_across Time: 22.0s Speed: 6.6fps Lost: 0
+[2019-07-21 12:58:28,863-rk0-test.py#416] (20) Video: drone_flip   Time: 10.6s Speed: 10.6fps Lost: 2
+[2019-07-21 12:59:24,235-rk0-test.py#416] (21) Video: drone1       Time: 41.6s Speed: 8.5fps Lost: 4
+[2019-07-21 13:00:16,584-rk0-test.py#416] (22) Video: fernando     Time: 40.5s Speed: 7.2fps Lost: 0
+[2019-07-21 13:01:37,729-rk0-test.py#416] (23) Video: fish1        Time: 54.4s Speed: 6.7fps Lost: 2
+[2019-07-21 13:02:33,189-rk0-test.py#416] (24) Video: fish2        Time: 41.6s Speed: 7.4fps Lost: 0
+[2019-07-21 13:04:19,710-rk0-test.py#416] (25) Video: fish3        Time: 78.7s Speed: 6.6fps Lost: 0
+[2019-07-21 13:10:42,449-rk0-test.py#416] (26) Video: flamingo1    Time: 261.6s Speed: 5.3fps Lost: 2
+[2019-07-21 13:11:54,533-rk0-test.py#416] (27) Video: frisbee      Time: 43.0s Speed: 5.7fps Lost: 2
+[2019-07-21 13:18:24,067-rk0-test.py#416] (28) Video: girl         Time: 318.9s Speed: 4.7fps Lost: 3
+[2019-07-21 13:19:07,118-rk0-test.py#416] (29) Video: glove        Time: 34.7s Speed: 3.4fps Lost: 0
+[2019-07-21 13:20:37,634-rk0-test.py#416] (30) Video: godfather    Time: 67.2s Speed: 5.4fps Lost: 0
+[2019-07-21 13:24:25,246-rk0-test.py#416] (31) Video: graduate     Time: 189.1s Speed: 4.5fps Lost: 0
+[2019-07-21 13:27:07,304-rk0-test.py#416] (32) Video: gymnastics1  Time: 136.9s Speed: 4.1fps Lost: 1
+[2019-07-21 13:28:40,325-rk0-test.py#416] (33) Video: gymnastics2  Time: 72.6s Speed: 3.3fps Lost: 0
+[2019-07-21 13:29:29,183-rk0-test.py#416] (34) Video: gymnastics3  Time: 34.9s Speed: 3.4fps Lost: 1
+[2019-07-21 13:31:02,989-rk0-test.py#416] (35) Video: hand         Time: 73.2s Speed: 3.6fps Lost: 2
+[2019-07-21 13:33:07,970-rk0-test.py#416] (36) Video: handball1    Time: 106.0s Speed: 3.5fps Lost: 1
+[2019-07-21 13:35:42,364-rk0-test.py#416] (37) Video: handball2    Time: 114.0s Speed: 3.5fps Lost: 2
+[2019-07-21 13:37:59,877-rk0-test.py#416] (38) Video: helicopter   Time: 119.8s Speed: 5.9fps Lost: 1
+[2019-07-21 13:39:04,676-rk0-test.py#416] (39) Video: iceskater1   Time: 63.1s Speed: 10.5fps Lost: 0
+[2019-07-21 13:40:13,854-rk0-test.py#416] (40) Video: iceskater2   Time: 67.0s Speed: 10.5fps Lost: 1
+[2019-07-21 13:40:19,799-rk0-test.py#416] (41) Video: leaves       Time: 5.2s Speed: 11.9fps Lost: 2
+[2019-07-21 13:40:29,412-rk0-test.py#416] (42) Video: matrix       Time: 9.0s Speed: 11.1fps Lost: 1
+[2019-07-21 13:40:45,345-rk0-test.py#416] (43) Video: motocross1   Time: 15.5s Speed: 10.5fps Lost: 0
+[2019-07-21 13:40:52,099-rk0-test.py#416] (44) Video: motocross2   Time: 6.0s Speed: 10.0fps Lost: 0
+[2019-07-21 13:42:34,103-rk0-test.py#416] (45) Video: nature       Time: 95.7s Speed: 10.4fps Lost: 2
+[2019-07-21 13:42:47,458-rk0-test.py#416] (46) Video: pedestrian1  Time: 13.1s Speed: 10.6fps Lost: 0
+[2019-07-21 13:43:00,637-rk0-test.py#416] (47) Video: rabbit       Time: 12.7s Speed: 12.4fps Lost: 5
+[2019-07-21 13:43:15,960-rk0-test.py#416] (48) Video: racing       Time: 14.8s Speed: 10.5fps Lost: 0
+[2019-07-21 13:44:13,782-rk0-test.py#416] (49) Video: road         Time: 53.5s Speed: 10.4fps Lost: 0
+[2019-07-21 13:44:49,432-rk0-test.py#416] (50) Video: shaking      Time: 34.4s Speed: 10.6fps Lost: 0
+[2019-07-21 13:45:14,099-rk0-test.py#416] (51) Video: sheep        Time: 23.9s Speed: 10.5fps Lost: 0
+[2019-07-21 13:45:53,344-rk0-test.py#416] (52) Video: singer2      Time: 36.5s Speed: 10.0fps Lost: 0
+[2019-07-21 13:46:06,501-rk0-test.py#416] (53) Video: singer3      Time: 12.6s Speed: 10.3fps Lost: 1
+[2019-07-21 13:46:46,501-rk0-test.py#416] (54) Video: soccer1      Time: 37.1s Speed: 10.5fps Lost: 3
+[2019-07-21 13:46:59,248-rk0-test.py#416] (55) Video: soccer2      Time: 11.4s Speed: 11.2fps Lost: 3
+[2019-07-21 13:47:14,319-rk0-test.py#416] (56) Video: soldier      Time: 12.9s Speed: 10.6fps Lost: 2
+[2019-07-21 13:47:52,502-rk0-test.py#416] (57) Video: tiger        Time: 35.4s Speed: 10.3fps Lost: 0
+[2019-07-21 13:48:13,388-rk0-test.py#416] (58) Video: traffic      Time: 19.3s Speed: 9.8fps Lost: 0
+[2019-07-21 13:48:48,508-rk0-test.py#416] (59) Video: wiper        Time: 33.7s Speed: 10.1fps Lost: 1
+[2019-07-21 13:49:42,291-rk0-test.py#416] (60) Video: zebrafish1   Time: 43.0s Speed: 9.3fps Lost: 1
+[2019-07-21 13:49:42,291-rk0-test.py#602] Total Lost: 59
+[2019-07-21 13:49:42,292-rk0-test.py#604] Mean Speed: 8.83 FPS
+[2019-07-21 14:09:27,594-rk0-test.py#555] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2019', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2019-07-21 14:09:27,825-rk0-features.py# 66] Current training 0 layers:
+	
+[2019-07-21 14:09:27,826-rk0-features.py# 66] Current training 1 layers:
+	
+[2019-07-21 14:09:27,895-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2019-07-21 14:09:31,045-rk0-load_helper.py# 25] remove prefix 'module.'
+[2019-07-21 14:09:31,047-rk0-load_helper.py# 18] used keys:356
+[2019-07-21 14:09:40,819-rk0-test.py#416] (1) Video: agility      Time: 7.2s Speed: 13.8fps Lost: 5
+[2019-07-21 14:10:17,592-rk0-test.py#416] (2) Video: ants1        Time: 31.4s Speed: 10.3fps Lost: 0
+[2019-07-21 14:10:21,910-rk0-test.py#416] (3) Video: ball2        Time: 3.9s Speed: 10.3fps Lost: 0
+[2019-07-21 14:10:31,889-rk0-test.py#416] (4) Video: ball3        Time: 8.9s Speed: 19.2fps Lost: 17
+[2019-07-21 14:11:44,102-rk0-test.py#416] (5) Video: basketball   Time: 68.6s Speed: 10.6fps Lost: 1
+[2019-07-21 14:12:25,012-rk0-test.py#416] (6) Video: birds1       Time: 33.1s Speed: 10.2fps Lost: 2
+[2019-07-21 14:13:02,622-rk0-test.py#416] (7) Video: bolt1        Time: 34.3s Speed: 10.2fps Lost: 0
+[2019-07-21 14:13:18,805-rk0-test.py#416] (8) Video: book         Time: 15.5s Speed: 11.2fps Lost: 4
+[2019-07-21 14:13:34,568-rk0-test.py#416] (9) Video: butterfly    Time: 15.2s Speed: 9.9fps Lost: 0
+[2019-07-21 14:14:54,509-rk0-test.py#416] (10) Video: car1         Time: 74.3s Speed: 10.0fps Lost: 2
+[2019-07-21 14:15:34,397-rk0-test.py#416] (11) Video: conduction1  Time: 34.9s Speed: 9.8fps Lost: 1
+[2019-07-21 14:15:52,366-rk0-test.py#416] (12) Video: crabs1       Time: 16.0s Speed: 9.9fps Lost: 1
+[2019-07-21 14:16:26,509-rk0-test.py#416] (13) Video: dinosaur     Time: 33.0s Speed: 9.8fps Lost: 0
+[2019-07-21 14:16:34,016-rk0-test.py#416] (14) Video: dribble      Time: 6.7s Speed: 16.3fps Lost: 10
+[2019-07-21 14:17:12,598-rk0-test.py#416] (15) Video: drone1       Time: 35.2s Speed: 10.1fps Lost: 4
