@@ -25,7 +25,34 @@ A Siamese neural network is an artificial neural network that uses the same weig
 
 #### Explanation
 
-Both the reference image (usually the first frame labeled with the bounding box, ___Z___) and the search image (___X___) are encoded into deep feature maps by the same - and therefore siamese - fully convolutional neural networks indicated by _&phi;_ here. The feature map produced from the reference image (___&phi;___(_Z_)) is used like a correlation filter which is convolved (\*) with the deep feature map of the search image to give the required score map, which is then used to get the bounding box coordinates.
+Both the reference image (usually the first frame labeled with the bounding box, ___Z___) and the search image (___X___) are encoded into deep feature maps by the same - and therefore siamese - fully convolutional neural networks indicated by ___&phi;___ here. The feature map produced from the reference image (___&phi;___(_Z_)) is used like a correlation filter which is convolved (\*) with the deep feature map of the search image to give the required score map, which is then used to get the bounding box coordinates.
+
+#### Some Special Highlights
+
+##### Fully Convolutional Architecture
+
+A fully convolutional architechture allows a mapping function i.e ___&phi;___ to be used for images with different sizes, this brings out the essence of _Siamese_ nature of the function.
+
+##### Logistic Loss Function
+
+The siamese network is pretrained on a dataset of videos with available groundtruth. Both positive and negative pairs of images are used to obtain better accuracy. Negative logarithmic loss is implemented with stochastic gradient descent (SGD) to arrive at optimal parameters.
+
+##### No Online Training
+
+Only offline training is used for the network to achieve weights that can be used for objects of any class. This also helps in achieving a high FPS and therefore real-time tracking.
+
+##### Conclusion
+
+This algo lets us depart from the traditional online learning methodology employed in tracking, and show an alternative approach that focuses on learning strong embeddings in an offline phase. The experiments using deep learning show that deep embeddings provide a naturally rich source of features which can be used for various purposes including this one.
+
+##### Advantages over the traditional methods
+
+- No online tracking. This specially helps when an object disappears or is occluded by any other object as when the object reappears the tracker tries to catch the object again by searching over a certain region.
+- Greater accuracy in terms of Estimated Average Overlap (EAO) because of using the deep features.
+
+##### Disadvantages / Problems
+
+- The algorithm works well in classification part of the tracking problem but still traditional methods are used to create search images and locate the required objects.
 
 
 ### SiamRPN
