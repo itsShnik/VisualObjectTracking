@@ -60,15 +60,65 @@ This algo lets us depart from the traditional online learning methodology employ
 
 > [High Performance Visual Tracking with Siamese Region Proposal Network](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html)
 
+#### Network Architecture
+
+![Network Architecture](Images/siamrpn.jpeg?raw=true)
+
+#### Explanation
+
+SiamRPM is an extended version of SiamFC, combining the deep feature maps extracted from the fully convolutional network with the [Region Proposal Network](https://arxiv.org/pdf/1506.01497.pdf).
+
+#### The Region Proposal Network
+
+![](Images/RPN.png?raw=true)
+
+Region Proposal Network is used to propose regions containing objects (called anchors) in an image and their corresponding objectivity scores. To serve the purpose two branches - one for score classification and the other for the coordinates’ regression - are required.
+
+#### Some Special Highlights 
+
+- The given network is trained end to end offline, but the detection frame performs online inference as one shot detection. The forward pass on the detection branch is performed to obtain the classification and regression output, thus getting the top proposals. 
+
+#### Conclusion
+
+The Siamese-RPN is trained end-to-end offline with large scale image pairs. During online tracking, the proposed framework is formulated as a local one shot detection task.
+
+#### Advantages 
+- This algorithm addresses the problem of _search-image location_ and hence the _object location_ with the help of a Region Proposal Network.
+- The problem of tracking hereby is speculated and formulated as one shot detection, which opens the doors for using the object detection algorithms in tracking prospects.
+
+
 ### DaSiamRPN
 ----
 
 > [Distractor-aware Siamese Networks for Visual Object Tracking](https://arxiv.org/abs/1808.06048)
 
+#### Explanation
+
+Features used in most Siamese tracking approaches can only discriminate foreground from the non-semantic backgrounds. The semantic backgrounds are always considered as distractors, which hinders the robustness of Siamese trackers. DaSiamRPN focuses on learning distractor-aware Siamese networks for accurate and long-term tracking. To this end, features used in traditional Siamese trackers are analyzed at first. It is observed that the imbalanced distribution of training data makes the learned features less discriminative. During the off-line training phase, an effective sampling strategy is introduced to control this distribution and make the model focus on the semantic distractors. During inference, a novel distractor-aware module is designed to perform incremental learning, which can effectively transfer the general embedding to the current video domain. In addition, DaSiamRPN extends the proposed approach for long-term tracking by introducing a simple yet effective local-to-global search region strategy.
+
+#### Some Special Highlights
+
+- Distractor aware training : Diverese categories of positive pairs can promote the generalization abilty, and using Semantic negative pairs can improve the discriminative ability.
+
+- Distractor aware incremental learning and long term tracking are used. 
+
 ### SiamRPN++
 ----
 
 > [SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks](https://arxiv.org/abs/1812.11703)
+
+#### Network Architecture
+
+![Network Arrhcitectur](Images/SiamRPN++.png?raw=true)
+
+#### Explanation
+
+SiamRPN++ as its name suggests is a better version of SiamRPN which uses deep networks (ResNet) to obtain feature maps. Moreover, it proposes a new model architecture to perform layer-wise and depth-wise aggregations, which not only further improves the accuracy but also reduces the model size.
+
+#### Some Special Highlights
+
+- [Layer-wise aggregation](https://arxiv.org/abs/1707.06484)
+- Depth-wise cross correlation 
 
 ### SiamMask
 ----
@@ -82,3 +132,4 @@ This algo lets us depart from the traditional online learning methodology employ
 
 > [ATOM: Accurate Tracking by Overlap Maximization](https://arxiv.org/abs/1811.07628)
 
+## Reinforcement Learning Based Approaches
