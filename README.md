@@ -62,7 +62,7 @@ This algo lets us depart from the traditional online learning methodology employ
 
 #### Network Architecture
 
-![Network Architecture](Images/siamrpn.jpeg?raw=true)
+![Network Architecture](Images/siamrpn.png?raw=true)
 
 #### Explanation
 
