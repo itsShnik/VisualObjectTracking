@@ -140,6 +140,10 @@ SiamRPN++ as its name suggests is a better version of SiamRPN which uses deep ne
 
 > [Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/abs/1812.05050)
 
+#### Network Architecture
+
+![Network Architecture][Images/siammask.jpg?raw=true]
+
 ## Non Siamese Networks
 
 ### ATOM
