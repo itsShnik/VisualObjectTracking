@@ -142,7 +142,7 @@ SiamRPN++ as its name suggests is a better version of SiamRPN which uses deep ne
 
 #### Network Architecture
 
-![Network Architecture][Images/siammask.jpg?raw=true]
+![Network Architecture](Images/siammask.jpg?raw=true)
 
 ## Non Siamese Networks
 
