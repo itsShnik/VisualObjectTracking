@@ -147,6 +147,9 @@ SiamRPN++ as its name suggests is a better version of SiamRPN which uses deep ne
 
 > [ATOM: Accurate Tracking by Overlap Maximization](https://arxiv.org/abs/1811.07628)
 
+#### Network Architecture
+![Network Architecture](Images/atom.png?raw=true)
+
 ## Reinforcement Learning Based Approaches
 
 ### Action Driven Approach
