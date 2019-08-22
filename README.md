@@ -1,7 +1,22 @@
 # VisualObjectTracking
 Compilation of some of the visual object tracking algorithms I worked on
 
-## Mosse Filter:
+## Index
+
+1. [Mosse Filter](#mosse-filter)
+2. [KCF](#kcf)
+3. [Siamese Networks](#siamese-networks)
+	- [SiamFC](#siamfc)
+	- [SiamRPN](#siamrpn)
+	- [DaSiamRPN](#dasiamrpn)
+	- [SiamRPN++](#siamrpn++)
+	- [SiamMask](#siammask)
+4. [Non Siamese Networks](#non-siamese-networks)
+	- [ATOM](#atom)
+5. [Reinforcement Learning Based Approaches](#reinforcement-learning-based-approaches)
+6. [Research Areas to Work on in Visual Object Tracking](#research-areas-to-work-on-in-visual-object-tracking)
+
+## Mosse Filter
 Reference : 
 > [Visual object tracking using adaptive correlation filters](https://ieeexplore.ieee.org/document/5539960/)
 
@@ -15,7 +30,7 @@ Reference:
 
 A Siamese neural network is an artificial neural network that uses the same weights while working in tandem on two different input vectors to compute comparable output vectors. Siamese networks have proved to be of great applicaiton in the field of visual object tracking. The ability of Siamese networks to output comparable featur vectors which basically indicate the similarity between the input images / patches is exploited by many recent researchers in computer vision.
 
-### Siam - FC 
+### SiamFC 
 ---
 > [Fully-Convolutional Siamese Networks for Object Tracking](https://arxiv.org/abs/1606.09549)
 
@@ -133,3 +148,18 @@ SiamRPN++ as its name suggests is a better version of SiamRPN which uses deep ne
 > [ATOM: Accurate Tracking by Overlap Maximization](https://arxiv.org/abs/1811.07628)
 
 ## Reinforcement Learning Based Approaches
+
+### Action Driven Approach
+----
+
+> [Action-Driven Visual Object Tracking With Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/8306309)
+
+_Note: The above link requires access to_ IEEE _sites. If you do not have access to it, you can check the paper in the folder named research papers_
+
+## Research Areas to Work on in Visual Object Tracking
+
+To come up with a totally new approach is quite a difficult task, but to summarize what most of the research papers have mentioned in the _Further Work_ section and whatever I have learned these can be few prospective areas:
+
+- Use of Sequence Models
+- Attention Net
+- Reinforcement Learning based approaches
