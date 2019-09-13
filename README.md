@@ -1,7 +1,9 @@
 # VisualObjectTracking
 Compilation of some of the visual object tracking algorithms I worked on
 
-[![Generic badge](https://img.shields.io/badge/VOT-Challenge-Green.svg)](https://http://www.votchallenge.net/)
+[![Generic badge](https://img.shields.io/badge/VOT-Challenge-Green.svg)](http://www.votchallenge.net/)
+[![Generic badge](https://img.shields.io/badge/VOT-2019-Blue.svg)](http://www.votchallenge.net/vot2019/) 
+[![Generic badge](https://img.shields.io/badge/VOT2018-Benchmark-Orange.svg)](http://www.votchallenge.net/vot2018/)
 
 ## Index
 
