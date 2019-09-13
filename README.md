@@ -1,6 +1,8 @@
 # VisualObjectTracking
 Compilation of some of the visual object tracking algorithms I worked on
 
+[![Generic badge](https://img.shields.io/badge/VOT-Challenge-Green.svg)](https://http://www.votchallenge.net/)
+
 ## Index
 
 1. [Mosse Filter](#mosse-filter)
