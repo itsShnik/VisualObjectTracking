@@ -140,6 +140,17 @@ SiamRPN++ as its name suggests is a better version of SiamRPN which uses deep ne
 
 > [Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/abs/1812.05050)
 
+#### Explanation:
+SiamMask illustrates how to perform both visual object tracking and semi-supervised video object segmentation, in real time with a single simple approach. It improves the offline training procedures of the previously mentioned SiamFC and SiamRPN by augmenting their loss with a binary segmentation task.
+
+#### Some Special Highlights:
+- Binary Segmentation along with the object tracking 
+- Improving the training procedures of the previous approaches by augmenting their loss with a binary segmentation task.
+
+#### Advantages:
+- This approach improvises the training procedure by augmenting the loss of previous approaches with a binary segmentation task. This improves the ability of the network to differentiate between the background and the foreground while tracking the object.
+
+
 #### Network Architecture
 
 ![Network Architecture](Images/siammask.jpg?raw=true)
